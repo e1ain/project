@@ -77,13 +77,14 @@ nav a:hover{
     float:left ;
     text-align: center;
 }
-.product-pic p, .item-price, .item-num{
+.item-name p, .item-price, .item-num{
     width:20%;
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
     float:left ;
     text-align: center;
+    
 }
 
 .item-num{
@@ -109,5 +110,13 @@ nav a:hover{
     height: 35px;
     width:25px;
     text-align: center;
-    
+}
+.price-label{
+    line-height:1.5;
+    width:20%;
+    position: relative;
+    padding-left: 15px;
+    padding-right: 15px;
+    float:left ;
+    text-align: center;
 }
