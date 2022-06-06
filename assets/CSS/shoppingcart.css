@@ -3,6 +3,11 @@
     font-family: Arial;
 }
 
+.logo{
+    text-align: center;
+    padding: 15px;  
+}
+
 nav{
     background-color: #C4CAD0;
     text-align: center;
@@ -19,9 +24,4 @@ nav a:hover{
     background-color: #878C8F;
     color: white;
     text-decoration:none;
-}
-.logo{
-    text-align: center;
-    padding: 20px;
-    background-color: #FCF7FF;
 }

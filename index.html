@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>首頁</title>
     <link rel="stylesheet" href="assets/CSS/index.css">
+    <script src="assets/JS/index.js"></script>
 </head>
 <body>
-    <header>
-
+    <header class="logo">
+        <img src="assets/image/logo.jpg" width="90px">
     </header>
 
     <nav>
@@ -21,6 +22,28 @@
     </nav>
 
     <main>
+        <div class="slideshow">
+            <div class="slides">
+              <img src="assets/image/ring1/1654447063485.jpg" style="width:100%">
+            </div>
+            
+            <div class="slides">
+              <img src="assets/image/ring1/2022-06-06 (3).png" style="width:100%">
+            </div>
+            
+            <div class="slides">
+              <img src="assets/image/ring2/2022-06-06 (10).png" style="width:100%">
+            </div>
+            
+            <a class="prev" onclick="changeSlides(-1)"><b>❮</b></a>
+            <a class="next" onclick="changeSlides(1)"><b>❯</b></a>
+        </div><br>
+            
+            <div style="text-align:center">
+              <span class="dot" onclick="currentSlide(1)"></span> 
+              <span class="dot" onclick="currentSlide(2)"></span> 
+              <span class="dot" onclick="currentSlide(3)"></span> 
+            </div>
     </main>
 
     <footer>

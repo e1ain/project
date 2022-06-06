@@ -3,13 +3,14 @@
     font-family: Arial;
 }
 
-
+.logo{
+    text-align: center;
+    padding: 15px;  
+}
 
 nav{
     background-color: #C4CAD0;
-    text-align: center;
-    
-    
+    text-align: center;  
 }
 
 nav a{
@@ -24,3 +25,58 @@ nav a:hover{
     color: white;
     text-decoration:none;
 }
+
+.slideshow{
+    padding: 30px 0 0 0;
+    margin: auto;
+    width: 900px;
+    position: relative;
+    vertical-align: middle;
+}
+
+.slides{
+    display: none;
+}
+
+.prev, .next{
+    cursor: pointer;
+    top: 50%;
+    width: auto;
+    padding: 20px;
+    color: white;
+    font-size: 25px;
+    transition: 0.6s ease;   
+    user-select: none;
+    position: absolute;  
+}
+
+.prev{
+    margin-top: -20px;
+    border-radius: 0 5px 5px 0;
+}
+
+.next{
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.500);
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 5px;
+    background-color: #717171;
+    border-radius: 80%;
+    display: inline-block;
+}
+
+.dot:hover {
+    background-color: black;
+}
+
+
+

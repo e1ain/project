@@ -3,6 +3,11 @@
     font-family: Arial;
 }
 
+.logo{
+    text-align: center;
+    padding: 15px;  
+}
+
 nav{
     background-color: #C4CAD0;
     text-align: center;

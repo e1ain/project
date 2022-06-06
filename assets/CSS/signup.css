@@ -30,8 +30,6 @@ h2{
     text-align: center;
 }
 
-
-
 .box{
     padding: 10px 500px 30px 500px;
     background-color: #FCF7FF;
@@ -65,6 +63,4 @@ button:hover{
     width: 100%;
     background-color: #C4CAD0;
     border: none;
-
 }
-
