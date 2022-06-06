@@ -20,6 +20,52 @@
         <a href="us.html">關於我們</a>
     </nav>
 
+    <section class="shopping-car">
+        <div class="s-header">
+            <hr/>
+            <h4>購物車</h4>
+            <hr/>
+        </div>
+
+    <div class="col-1">商品資料</div>
+    <div class="col-2">價格</div>
+    <div class="col-2">數量</div>
+    <div class="col-2">小計</div>
+    <br/>
+    <br/>
+    <div class="car-item"></div>
+        <div class="row">
+            <div class="item">
+                <div class="product">
+                    <div class="product-pic">
+                        <img src="assets/image/ring1/2022-06-06 (4).png" width="150px">
+                    </div>
+                    <p>戒指</p>
+                </div>
+                <div class="item-price">
+                    <p>$200</p>
+                </div>
+                <div class="item-num">
+                    <input type="button" class="num-button1" value="-" id="btn1" onclick="MinusNUM()">
+                    <input type="text" id="num" class="number" value="1">
+                    <input type="button" class="num-button2" value="+" id="btn2" onclick="addNUM()">
+                </div>
+            </div>
+        </div>
+    
+      <script>
+          function MinusNUM(){
+            let value=Number(document.getElementById('num').value);
+            if(value !=1){
+                document.getElementById('num').value=value-1;
+            }
+          }
+          function addNUM(){
+            let value=Number(document.getElementById('num').value);
+            document.getElementById('num').value=value+1;
+          }
+      </script>
+</section>
     <main>
     </main>
 
