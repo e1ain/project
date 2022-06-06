@@ -30,12 +30,9 @@ h2{
     text-align: center;
 }
 
-
-
 .box{
     padding: 10px 500px 30px 500px;
-    background-color: #FCF7FF;
-    border: 1px solid #C4CAD0;
+    
 }
 
 input[type=text], input[type=password]{

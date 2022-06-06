@@ -65,16 +65,16 @@ nav a:hover{
 }
 
 .dot {
-    cursor: pointer;
     height: 15px;
     width: 15px;
     margin: 0 5px;
     background-color: #717171;
     border-radius: 80%;
     display: inline-block;
+    cursor: pointer;
 }
 
-.dot:hover {
+.active, .dot:hover {
     background-color: black;
 }
 
