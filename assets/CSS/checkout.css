@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+.logo{
+    text-align: center;
+    padding: 15px;  
+}
+nav{
+    background-color: #C4CAD0;
+    text-align: center;
+}
+
+nav a{
+    padding: 14px 16px;
+    display: inline-block;
+    color: black;
+    text-decoration:none;
+}
+
+nav a:hover{
+    background-color: #878C8F;
+    color: white;
+    text-decoration:none;
+}
+.row{
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+main{
+    padding: 20px;
+}
+main::after{
+    content: "";
+    clear: both;
+    display: table;
+    
+}
+article{
+    float: left;
+    width:55%;
+}
+aside{
+    float: right;
+    width: 45%;
+
+}
+.card{
+    margin: 0px;
+    margin-bottom: 100px;
+    padding: 0 15px;
+}
+.s-header{
+    margin:0;
+    padding: 30px;
+}
+
+.s-header h4{
+    font-size: 22px;
+    padding:10px;
+    margin: 0;
+    line-height: 20px;
+    font-family: 微軟黑正體;
+    color:rgba(49, 43, 43, 0.863);
+    letter-spacing: 1.5px;
+}
+
+.title{
+    background-color: white;
+    border-top: #878C8F;
+    border-bottom: #878C8F;
+}
+.order-form{
+    margin-bottom: 30px;
+    padding: 0 15px;
+    background-color: rgb(218, 214, 214);
+    margin: 20px 10px;
+}
+.deliver-form{
+    display: block;
+    width: 60%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #555555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    margin-left: 35px;
+}
+label{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 35px;
+}
+.price-left{
+    float: left !important;
+}
+.price-right{
+    float: right !important;
+}
+.btn-checkout{
+    text-align: center;
+}
+.button{
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration:none;
+    background-color: #878C8F;
+    color: white;
+}
+
