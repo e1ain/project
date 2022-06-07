@@ -49,17 +49,14 @@ input[type=text]:focus, input[type=password]:focus {
 button{
     padding: 14px 20px;
     margin: 8px 0;
-    cursor: pointer;  
+    cursor: pointer;
+    width: 100%;
+    background-color: #C4CAD0;
+    border: none;  
 }
 
 button:hover{
     background-color: #878C8F;
     color: white;
-    
 }
 
-.btn{
-    width: 100%;
-    background-color: #C4CAD0;
-    border: none;
-}
