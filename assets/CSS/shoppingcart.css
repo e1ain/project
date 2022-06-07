@@ -85,7 +85,7 @@ nav a:hover{
     text-align: center;
 }
 
-.item-name p, .item-price, .item-num{
+ .item-price, .item-num{
     width:20%;
     position: relative;
     padding-left: 15px;
