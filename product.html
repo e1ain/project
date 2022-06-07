@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>商品</title>
     <link rel="stylesheet" href="assets/CSS/product.css">
+    <script src="assets/JS/shoppingcart.js" defer></script>
 </head>
 <body>
     <header class="logo">
@@ -21,6 +22,32 @@
     </nav>
 
     <main>
+        <div class="menu">
+            <h3>全部商品</h3>
+            <hr style="border:none; border-top: 1.5px solid #878C8F;">
+            <a href="rings.html"><b>戒指</b></a>
+            <hr style="border:none; border-top: 1px solid #878C8F;">
+            <a href="earrings.html"><b>耳環</b></a>
+            <hr style="border:none; border-top: 1px solid #878C8F;">
+            <a href="necklaces.html"><b>項鍊</b></a>
+        </div>
+
+        <div class="card">
+            <img src="assets/image/ring1/2022-06-06 (4).png" style="width:100%">
+        </div>
+
+        <div class="detail">
+            <h1>戒指</h1>
+            <h2>NT$200</h2>
+            <p>數量</p>
+            <div>
+                <input type="button" class="num-button1" value="-" id="btn1" onclick="MinusNUM()">
+                <input type="text" class="number" id="num" value="1">
+                <input type="button" class="num-button2" value="+" id="btn2" onclick="addNUM()">
+            </div>
+            <button type="button" class="btn"><b>加入購物車</b></button>
+        </div>
+
     </main>
 
     <footer>
