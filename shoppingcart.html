@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>購物車</title>
     <link rel="stylesheet" href="assets/CSS/shoppingcart.css">
+    <script src="assets/JS/shoppingcart.js" defer></script>
 </head>
 <body>
     <header class="logo">
@@ -22,9 +23,9 @@
 
     <section class="shopping-car">
         <div class="s-header">
-            <hr/>
+            <hr style="border:none; border-top: 1px solid #878C8F;">
             <h4>購物車</h4>
-            <hr/>
+            <hr style="border:none; border-top: 1px solid #878C8F;">
         </div>
 
     <div class="col-1">商品資料</div>
@@ -54,21 +55,9 @@
                     <span class="price-label">NT$200</span>
                 </div>
             </div>
-        </div>
-    
-      <script>
-          function MinusNUM(){
-            let value=Number(document.getElementById('num').value);
-            if(value !=1){
-                document.getElementById('num').value=value-1;
-            }
-          }
-          function addNUM(){
-            let value=Number(document.getElementById('num').value);
-            document.getElementById('num').value=value+1;
-          }
-      </script>
-</section>
+        </div></div>
+    </section>
+      
     <main>
     </main>
 

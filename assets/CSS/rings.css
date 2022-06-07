@@ -42,9 +42,8 @@ h3{
 .menu a{
     background-color: white;
     color: #878C8F;
-    border: 5px solid white;
     display: block;
-    padding: 5px;
+    padding: 7px;
     text-decoration: none;
 }
 

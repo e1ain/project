@@ -25,15 +25,18 @@ nav a:hover{
     color: white;
     text-decoration:none;
 }
+
 .shopping-car{
     margin: 0px;
 }
+
 .s-header{
     margin:0;
     border-top:3px  #878C8F;
     border-bottom:3px #878C8F;
     padding: 30px;
 }
+
 .s-header h4{
     font-size: 22px;
     padding:10px;
@@ -47,6 +50,7 @@ nav a:hover{
     border-top: #878C8F;
     border-bottom: #878C8F;
 }
+
 .col-1{
     width:25%;
     position: relative;
@@ -56,6 +60,7 @@ nav a:hover{
     text-align: center;
 
 }
+
 .col-2{
     width:20%;
     position: relative;
@@ -64,11 +69,13 @@ nav a:hover{
     float:left ;
     text-align: center;
 }
+
 .car-item{
     border-top: 1px solid #EDEDED;
     padding-left: 15px;
     padding-right: 15px;
 }
+
 .product-pic{
     width:25%;
     position: relative;
@@ -77,6 +84,7 @@ nav a:hover{
     float:left ;
     text-align: center;
 }
+
 .item-name p, .item-price, .item-num{
     width:20%;
     position: relative;
@@ -98,6 +106,7 @@ nav a:hover{
     width:25px;
     text-align: center;
 }
+
 .num-button1{
     border: 1px solid lightgray;
     height: 35px;
@@ -105,12 +114,14 @@ nav a:hover{
     text-align: center;
     
 }
+
 .num-button2{
     border:1px solid lightgray;
     height: 35px;
     width:25px;
     text-align: center;
 }
+
 .price-label{
     line-height:1.5;
     width:20%;
