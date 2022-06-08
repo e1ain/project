@@ -24,3 +24,7 @@ nav a:hover{
     color: white;
     text-decoration:none;
 }
+.p h3, .p h4{
+    text-align: center;
+    color:#484c4e;
+}
