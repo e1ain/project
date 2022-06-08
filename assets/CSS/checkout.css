@@ -99,15 +99,23 @@ aside{
     border: 1px solid #ccc;
     margin-left: 35px;
 }
-label, .memo{
+label{
     display: inline-block;
     max-width: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
     margin-left: 35px;
 }
-.price{
+.memo{
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-left: 35px;
     text-align: center;
+}
+.price{
+    text-align: right;
     margin: 20px;
 }
 .price-left, .num-left{
