@@ -4,8 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>耳環</title>
-    <link rel="stylesheet" href="assets/CSS/sales.css">
+    <title>商品</title>
+    <link rel="stylesheet" href="assets/CSS/product.css">
+    <script src="assets/JS/product.js" defer></script>
+    <script src="assets/JS/number.js" defer></script>
 </head>
 <body>
     <header class="logo">
@@ -31,29 +33,31 @@
             <a href="necklaces.html"><b>項鍊</b></a>
         </div>
 
-        <div class="card">
-            <a href="earrings1.html"><img src="assets/image/earrings1/1654628472821.jpg" style="width:100%"></a>
-            <h4>戒指</h4>
-            <p class="price">$200</p>
+        <div class="container">
+            <div class="card">
+                <img src="assets/image/ring2/2022-06-06 (7).png" id="imgPreview" style="width:100%;max-width:800px">
+            </div>
+        
+            <div class="detail">
+                <h1>戒指</h1>
+                <h2>NT$200</h2>
+                <p>數量</p>
+                <div>
+                    <input type="button" class="num-button1" value="-" id="btn1" onclick="MinusNUM()">
+                    <input type="text" class="number" id="num" value="1">
+                    <input type="button" class="num-button2" value="+" id="btn2" onclick="addNUM()">
+                </div>
+                <button type="button" class="btn"><b>加入購物車</b></button>
+            </div>
         </div>
-        <div class="card">
-            <a href="earrings2.html"><img src="assets/image/earrings2/1654628534568.jpg" style="width:100%"></a>
-            <h4>戒指</h4>
-            <p class="price">$200</p>
-        </div>
-        <div class="card">
-            <a href="earrings3.html"><img src="assets/image/earrings3/1654628669133.jpg" style="width:100%"></a>
-            <h4>戒指</h4>
-            <p class="price">$200</p>
-        </div>
-        <div class="card">
-            <a href="earrings4.html"><img src="assets/image/earrings4/1654628746887.jpg" style="width:100%"></a>
-            <h4>戒指</h4>
-            <p class="price">$200</p>
-        </div>
+
+        
+
+
     </main>
 
     <footer>
     </footer>
+    
 </body>
 </html>
