@@ -59,6 +59,11 @@ h4{
     float: left;
 }
 
+.card img{
+    width: 160px;
+    height: 160px;
+}
+
 .price{
     color: grey;
     font-size: 16px;
