@@ -6,7 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>商品</title>
     <link rel="stylesheet" href="assets/CSS/product.css">
+    <script src="assets/JS/product.js" defer></script>
     <script src="assets/JS/number.js" defer></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script src="jquery.star-rating-svg.js"></script>
+    <script src="jquery.star-rating-svg.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
+    <link rel="stylesheet" type="text/css" href="star-rating-svg.css">
 </head>
 <body>
     <header class="logo">
@@ -33,7 +40,13 @@
         </div>
 
         <div class="card">
-            <img src="assets/image/ring1/2022-06-06 (4).png" style="width:100%">
+            <img src="assets/image/ring1/2022-06-06 (4).png" id="myImg" style="width:100%;max-width:800px">
+        </div>
+
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>      
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
         </div>
 
         <div class="detail">
@@ -47,6 +60,43 @@
             </div>
             <button type="button" class="btn"><b>加入購物車</b></button>
         </div>
+
+        <!--<div class="my-rating-6"></div>
+
+        <form action="123.jsp" method="get">
+            <input type="text" name="num" >
+            <input type="hidden" id="test" name="star">
+            <input type="submit" value="確定送出">
+            <input type="reset" value="取消"> 
+        </form>
+
+        <script>
+        var array = '';
+        $(".my-rating-6").starRating({
+            totalStars: 5,
+            emptyColor: 'lightgray',
+            hoverColor: 'salmon',
+            activeColor: 'cornflowerblue',
+            initialRating: 4,
+            strokeWidth: 0,
+            useGradient: false,
+            minRating: 1,
+            callback: function (currentRating, $el) {
+                alert('rated ' + currentRating);
+                console.log('DOM element ', $el);
+                $('#test').attr("value", currentRating);
+                array = currentRating;
+            }
+        });
+
+    // var app = new Vue({
+    //   el: '#test',
+    //   data: {
+    //     message: array
+    //   }
+    // })
+        </script>-->
+
 
     </main>
 
