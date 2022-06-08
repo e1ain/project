@@ -72,6 +72,14 @@ aside{
     border-top: #878C8F;
     border-bottom: #878C8F;
 }
+.customer-inf{
+    width: 60%;
+    padding: 0px 35px;
+    line-height: 2;
+    font-size: 15px;
+    letter-spacing: 1.5px;
+}
+
 .order-form{
     margin-bottom: 30px;
     padding: 0 15px;
@@ -91,17 +99,21 @@ aside{
     border: 1px solid #ccc;
     margin-left: 35px;
 }
-label{
+label, .memo{
     display: inline-block;
     max-width: 100%;
     margin-bottom: 10px;
     margin-top: 10px;
     margin-left: 35px;
 }
-.price-left{
+.price{
+    text-align: center;
+    margin: 20px;
+}
+.price-left, .num-left{
     float: left !important;
 }
-.price-right{
+.price-right, .num-right{
     float: right !important;
 }
 .btn-checkout{
@@ -113,6 +125,7 @@ label{
     border-radius: 5px;
     text-decoration:none;
     background-color: #878C8F;
+    border:none;
     color: white;
 }
 

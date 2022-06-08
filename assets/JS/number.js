@@ -8,3 +8,4 @@ function addNUM(){
     let value=Number(document.getElementById('num').value);
     document.getElementById('num').value=value+1;
 }
+

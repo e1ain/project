@@ -83,17 +83,16 @@ aside{
 }
 
 .col-1{
-    width:25%;
+    width:31%;
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
     float:left ;
     text-align: center;
-
 }
 
 .col-2{
-    width:20%;
+    width:18%;
     position: relative;
     padding-left: 15px;
     padding-right: 15px;
@@ -101,27 +100,49 @@ aside{
     text-align: center;
 }
 
-.car-item{
+/*.car-item{
     border-top: 1px solid #EDEDED;
     padding-left: 15px;
     padding-right: 15px;
+}*/
+.product{
+    border-top: 1px solid #EDEDED;
+    border-bottom: none;
+    margin: 20px;
 }
 .product-pic{
-    width:25%;
+    width: 28%;
     position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 15px;
+    padding-right: 10px;
     float:left ;
     text-align: center;
 }
-
-.item-price, .item-num{
-    width:20%;
+.item-name p{
+    width: 5%;
     position: relative;
-    padding-left: 15px;
+    padding-right: 5px;
+    float:left ;
+    text-align: left;  
+    line-height: 50px;
+}
+.item-price{
+    width:13%;
+    position: relative;
+    padding-left: 11px;
     padding-right: 15px;
     float:left ;
+    text-align: center; 
+    line-height:0;
+}
+
+.item-num{
+    width:20%;
+    position: relative;
+    padding-left: 50px;
+    float:left ;
     text-align: center;  
+    line-height: 1.5;
 }
 .number{
     border: none;
@@ -152,7 +173,6 @@ aside{
     width:20%;
     position: relative;
     padding-left: 15px;
-    padding-right: 15px;
     float:left ;
     text-align: center;
 }
@@ -165,5 +185,6 @@ aside{
     border-radius: 5px;
     text-decoration:none;
     background-color: #878C8F;
+    border:none;
     color: white;
 }
