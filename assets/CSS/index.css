@@ -74,14 +74,55 @@ nav a:hover{
     cursor: pointer;
 }
 
-.active, .dot:hover {
+ .active,.dot:hover {
     background-color: black;
 }
 
-main::after{
-    content: "";
-    clear: both;
-    display: table;
+.sales-chart{
+
+    text-align: center;
+    padding: 50px;
+    border-top: 1px solid #EDEDED;
+    border-bottom: none;
+    margin: 20px;
+
+}
+.sales-chart a{
+    text-decoration:none;
+    text-align: center;
+    margin: 50px;
+    padding: 10px;
+}
+.sales-chart img{
+    width: 60px;
+    height: 60px;
+    float: left;
+    text-align: center;
+}
+.sales-chart h4{
+        margin: 7px;
+        float: left;
+        text-align: center;
+}
+.top1,.top2{
+    line-height: 50px;
+    border-top: 1px solid #EDEDED;
+    border-bottom: none;
+    margin: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
+}
+.top3{
+    line-height: 50px;
+    border-top: 1px solid #EDEDED;
+    border-bottom: none;
+    margin: 50px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
+    float: left;
 }
 
 footer{
