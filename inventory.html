@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/CSS/inventory.css">
+</head>
+<body>
+    <header class="logo">
+        <a href="index.html"><img src="assets/image/logo.jpg" width="90px"></a>
+    </header>
+
+    <nav>
+        <a href="index.html">首頁</a>
+        <a href="sales.html">商品</a>
+        <a href="signin.html">會員</a>
+        <a href="shoppingcart.html">購物車</a>
+        <a href="us.html">關於我們</a>
+    </nav>
+
+    <form method="post" action="">
+        <main>      
+            <div class="item-inf"><h3>商品後台</h3></div>
+            <article>
+            <div class="item1">
+                <label for="item_name">商品名稱</label>
+                <input class="text1" type="text" name="item_name" autofocus/><br/>
+            </div>     
+            <div class="item1">    
+                <label for="item_type">商品種類</label>
+                <input class="text1" type="text" name="item_type"/><br/>
+            </div>         
+            <div class="item1">
+                <label for="item_price">商品價格 </label>
+                    <input class="text1" type="text" name="item_price"/>
+            </div>
+
+            </article>
+            <aside>
+                <div class="item2">
+                    <label for="inventory_quantity">庫存數量 </label>
+                    <input  class="text2" type="text" name="inventory_quantity"/><br/>
+                </div>
+                <div class="item2">
+                    <label for="item_introduce">商品介紹 </label>
+                    <input class="text2" type="text" name="item_introduce"/><br/>
+                </div>
+                    
+            </aside> 
+        </main>   
+            <div class="btn-checked1">
+                <input type="button" value="取消修改" onclick="javascript:history.back();" class="button" />
+                <input type="submit" value="確認修改" class="button"/>
+        </div>
+            
+        
+    </form>
+    <footer>
+
+    </footer>
+</body>
+</html>
