@@ -131,9 +131,15 @@ label{
     margin-top: 10px;
     padding: 10px;
     border-radius: 5px;
+    margin: 50px; /* button 分開(跟footer也保持距離) */
     text-decoration:none;
     background-color: #878C8F;
     border:none;
     color: white;
 }
-
+footer{
+    background-color: #C4CAD0;
+    color: #717171;
+    padding: 40px;
+    text-align: center;
+}

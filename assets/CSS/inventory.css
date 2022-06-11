@@ -32,15 +32,23 @@ nav a:hover{
     letter-spacing: 1.5px;
     text-align: center;
 }
-
+main{
+    padding: 20px;
+}
+main::after{
+    content: "";
+    clear: both;
+    display: table;
+}
 article{
     float: left;
     width:55%;
-    padding-left: 50px;
+    margin-bottom: 100px;
 }
 aside{
     float: right;
     width: 45%;
+    margin-bottom: 100px;
 }
 .item1{
     margin-bottom: 20px;
@@ -59,11 +67,10 @@ aside{
     height:30px;
     border-radius: 0%;
     border:1px solid #999999;
+    padding: 15px;
 }
-.btn-checked{
+.btn-checked1{
     text-align: center;
-    margin-bottom: 100px;
-    
 }
 .button{
     margin-top: 10px;
@@ -73,7 +80,7 @@ aside{
     background-color: #878C8F;
     border:none;
     color: white;
-    text-align: center;
+    margin: 50px;
 }
 
 footer{
