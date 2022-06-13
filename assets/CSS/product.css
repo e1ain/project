@@ -124,7 +124,8 @@ h3{
 }
 
 .my-rating-6>.jq-star>svg{
-    width: 30px;   
+    width: 30px;  
+    height: 50px; 
 }
 
 .comment{
@@ -134,9 +135,11 @@ h3{
 }
 
 textarea{
-    margin: 20px 0 5px 0 ;
+    margin: 70px 0 5px 0 ;
     display: flex;
+    
 }
+
 
 
 
