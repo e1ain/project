@@ -57,8 +57,10 @@
                 <button type="button" class="btn"><b>加入購物車</b></button>
             </div>
         </div>
-
+        
         <div class="comment">
+            <h2>評論區</h2>
+            <hr style="border:none; border-top: 1px solid #878C8F;" >
             <div class="my-rating-6"></div>
             <form action="123.jsp" method="get">
                 <input type="text" name="respond">
@@ -68,33 +70,7 @@
             </form>
         </div>
 
-        <script>
-        var array = '';
-        $(".my-rating-6").starRating({
-            totalStars: 5,
-            emptyColor: 'lightgray',
-            hoverColor: 'salmon',
-            activeColor: 'cornflowerblue',
-            initialRating: 4,
-            strokeWidth: 0,
-            useGradient: false,
-            minRating: 1,
-            callback: function (currentRating, $el) {
-                alert('rated ' + currentRating);
-                console.log('DOM element ', $el);
-                $('#test').attr("value", currentRating);
-                array = currentRating;
-            }
-        });
-
-    // var app = new Vue({
-    //   el: '#test',
-    //   data: {
-    //     message: array
-    //   }
-    // })
-        </script>
-
+        
 
     </main>
 

@@ -34,21 +34,25 @@ nav a:hover{
 main{
     padding: 20px;
 }
+
 main::after{
     content: "";
     clear: both;
     display: table;
     
 }
+
 article{
     float: left;
     width:63%;
 }
+
 aside{
     float: right;
     width: 35%;
 
 }
+
 .shopping-car{
     margin: 0px;
     margin-bottom: 200px;
@@ -105,11 +109,13 @@ aside{
     padding-left: 15px;
     padding-right: 15px;
 }*/
+
 .product{
     border-top: 1px solid #EDEDED;
     border-bottom: none;
     margin: 20px;
 }
+
 .product-pic{
     width: 28%;
     position: relative;
@@ -118,6 +124,7 @@ aside{
     float:left ;
     text-align: center;
 }
+
 .item-name p{
     width: 5%;
     position: relative;
@@ -126,6 +133,7 @@ aside{
     text-align: left;  
     line-height: 50px;
 }
+
 .item-price{
     width:13%;
     position: relative;
@@ -144,6 +152,7 @@ aside{
     text-align: center;  
     line-height: 1.5;
 }
+
 .number{
     border: none;
     border-top: 1px solid lightgray;
@@ -176,9 +185,11 @@ aside{
     float:left ;
     text-align: center;
 }
+
 .btn-checkout{
     text-align: center;
 }
+
 .button{
     margin-top: 10px;
     padding: 10px;
