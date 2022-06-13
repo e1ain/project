@@ -1,8 +1,10 @@
 *{
     box-sizing: border-box;
     font-family: Arial;
+}main{
+    background-color:#f5c7cf;
+    margin: 0px;
 }
-
 .logo{
     text-align: center;
     padding: 15px;  
