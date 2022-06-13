@@ -133,9 +133,7 @@ h3{
     float: left; 
 }
 
-.comment input[type=text]{
-    padding: 30px;
-    width: 300px;
+textarea{
     margin: 20px 0 5px 0 ;
     display: flex;
 }
