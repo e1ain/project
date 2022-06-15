@@ -8,6 +8,32 @@
     padding: 15px;  
 }
 
+.search{
+    margin: -65px 3px;
+    position: absolute;
+    
+}
+
+.search input{
+    width: 180px;
+    border: 1px solid #C4CAD0;
+    padding: 3px;
+    margin: 0;
+    float: left;
+}
+
+.search img{
+    width: 10px;
+    height: 10px;
+}
+
+.search button{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #C4CAD0;
+}
+
+
 nav{
     background-color: #C4CAD0;
     text-align: center;

@@ -7,6 +7,32 @@
     text-align: center;
     padding: 15px;  
 }
+
+.search{
+    margin: -65px 3px;
+    position: absolute;
+    
+}
+
+.search input{
+    width: 180px;
+    border: 1px solid #C4CAD0;
+    padding: 3px;
+    margin: 0;
+    float: left;
+}
+
+.search img{
+    width: 10px;
+    height: 10px;
+}
+
+.search button{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #C4CAD0;
+}
+
 nav{
     background-color: #C4CAD0;
     text-align: center;
@@ -24,11 +50,10 @@ nav a:hover{
     color: white;
     text-decoration:none;
 }
+
 .row{
-    
     margin-left: 15px;
     margin-right: 15px;
-    
 }
 
 main{
@@ -58,6 +83,7 @@ aside{
     margin-bottom: 200px;
     padding: 0 15px;
 }
+
 .card{
     margin: 0px;
     margin-bottom: 100px;

@@ -8,6 +8,58 @@
     padding: 15px;  
 }
 
+.search{
+    margin: -65px 3px;
+    position: absolute;
+    
+}
+
+.search input{
+    width: 180px;
+    border: 1px solid #C4CAD0;
+    padding: 3px;
+    margin: 0;
+    float: left;
+}
+
+.search img{
+    width: 10px;
+    height: 10px;
+}
+
+.search button{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #C4CAD0;
+}
+
+
+.search{
+    margin: -65px 3px;
+    position: absolute;
+    
+}
+
+.search input{
+    width: 180px;
+    border: 1px solid #C4CAD0;
+    padding: 3px;
+    margin: 0;
+    float: left;
+}
+
+.search img{
+    width: 10px;
+    height: 10px;
+}
+
+.search button{
+    width: 23px;
+    height: 23px;
+    border: 1px solid #C4CAD0;
+}
+
+
 nav{
     background-color: #C4CAD0;
     text-align: center;
@@ -31,22 +83,21 @@ h2{
 }
 
 .box{
-    padding: 10px 500px 30px 500px;
-    
+    padding: 10px 500px 30px 500px;   
 }
 
-input[type=text], input[type=password]{
+.box input[type=text], .box input[type=password]{
     width: 100%;
     padding: 10px;
     margin: 5px 0 10px 0;
     display: inline-block;
 }
 
-input[type=text]:focus, input[type=password]:focus {
+.box input[type=text]:focus, .boxinput[type=password]:focus {
     background-color: #878C8F;
 }
 
-button{
+.box button{
     padding: 14px 20px;
     margin: 8px 0;
     cursor: pointer;
@@ -55,7 +106,7 @@ button{
     border: none;  
 }
 
-button:hover{
+.box button:hover{
     background-color: #878C8F;
     color: white;
 }
