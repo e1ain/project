@@ -35,6 +35,7 @@
                     <hr style="border:none; border-top: 1px solid #878C8F;">
                 </div>
 
+               <!--
                 <div class="col-1">商品資料</div>
                 <div class="col-2">價格</div>
                 <div class="col-2">數量</div>
@@ -75,7 +76,51 @@
                 </div>
             </section>
         </form>
+        -->
+        <section>
+        <table class="">
+            <tr>
+                <td>商品資料</td>
+                <td>價格</td>
+                <td>數量</td>
+                <td>小計</td>
+                <td></td>
+            </tr>
+            <tr>
+                <td><a href="earrings1.html"><img src="assets/image/earrings1/1654628453338.jpg" width="150px"></a><p>幾何垂墜耳環</p></td>
+                <td>$200</td>
+                <td>
+                    <input type="button" class="num-button1" value="-" id="btn1" onclick="MinusNUM()">
+                    <input type="text" id="num" class="number" value="1">
+                    <input type="button" class="num-button2" value="+" id="btn2" onclick="addNUM()">
+                </td>
+                <td>$200</td>
+                <td><img src="assets/image/cashbin/1654558344003.jpeg" width="25px border=0" usemap="#cashbin">
+                <map name="cashbin">
+                    <area shape="rect" coords="0,0,25,25" href="#" target="_self" alt="刪除">
+                </map>
+            </td>
+            </tr>
 
+            <tr>
+                <td><a href="earrings1.html"><img src="assets/image/earrings1/1654628453338.jpg" width="150px"></a><p>幾何垂墜耳環</p></td>
+                <td>$200</td>
+                <td>
+                    <input type="button" class="num-button1" value="-" id="btn1" onclick="MinusNUM()">
+                    <input type="text" id="num" class="number" value="1">
+                    <input type="button" class="num-button2" value="+" id="btn2" onclick="addNUM()">
+                </td>
+                <td>$200</td>
+                <td><img src="assets/image/cashbin/1654558344003.jpeg" width="25px border=0" usemap="#cashbin">
+                <map name="cashbin">
+                    <area shape="rect" coords="0,0,25,25" href="#" target="_self" alt="刪除">
+                </map>
+            </td>
+            </tr>
+        </table>
+
+
+</section>
         <div class="btn-checkout">
             <a class="button" href="checkout.html">訂單結帳</a>
         </div>

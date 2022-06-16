@@ -211,9 +211,34 @@ aside{
     float:left ;
     text-align: center;
 }
+/*商品區*/
+section{
+    margin: 20px;
+    padding: 0 15px;
+}
+
+table{
+    border: 1px solid #878C8F;
+    border-right: #878C8F;
+    border-left: #878C8F;
+    border-collapse:collapse;
+    
+}
+th,td{
+    border: 1px solid #adb5b9;
+    border-right: #878C8F;
+    border-left: #878C8F;
+    text-align: center;
+    padding: 10px;
+    width: 280px;
+    height: 60px;
+}
+
+
 
 .btn-checkout{
     text-align: center;
+    margin: 50px;
 }
 
 .button{
