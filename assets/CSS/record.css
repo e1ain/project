@@ -59,7 +59,7 @@ h3{
 
 .menu{
     width: 100px;
-    margin: 40px 40px 100% 40px;
+    margin: 40px 40px auto 40px;
     text-align: center;
     float: left;
 }
@@ -93,4 +93,11 @@ th,td{
 }
 th{
     text-align: right;
+}
+
+footer{
+    background-color: #C4CAD0;
+    color: #717171;
+    padding: 40px;
+    text-align: center;
 }
