@@ -72,9 +72,8 @@ h3{
 }
 
 .container{
-    width: 85%;
+    /*width: 85%;*/
     display: flex;
-
 }
 
 .card{
@@ -138,8 +137,19 @@ h3{
     border-radius: 6px;
     cursor: pointer;
 }
-
-
+.item{
+    width: 85%;
+    padding: 10px 100px;
+    float: left;
+    line-height: 1.5;
+    font-size: 16px;
+}
+.item-img img{
+    width:650px;
+    height: 500px;
+    padding: 30px 100px;
+    float: left;
+}
 
 .my-rating-6 {
     display: flex;
