@@ -105,29 +105,33 @@ nav a:hover{
 
 .container{
     width: 100%;
-    display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.saleschart{
-    width: 80%;
-    padding: 50px;
-    display: block;
     text-align: center;
-    justify-content: center;
-    align-items: center;
+    margin: 50px 0;
 }
 
-.topimg{
-    width: 50%;  
-    display: inline;
+h2{
+    margin: 10px;
 }
 
-.topp{
-    width: 50%;
-    display: inline-block;
-    align-items: center;
+table{
+    border-collapse:collapse;
+    border: 1px solid #878C8F;
+    border-right: #878C8F;
+    border-left: #878C8F;
+    margin-left:auto; 
+    margin-right:auto;
+    
+}
+
+th,td{
+    border: 1px solid #878C8F;
+    border-right: #878C8F;
+    border-left: #878C8F;
+    padding: 10px;
+    width: 25%;
+    height: 100px;
 }
 
 
