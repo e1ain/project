@@ -4,7 +4,6 @@
 }
 
 main{
-    background-color:#f5c7cf;
     margin: 0px;
 }
 
@@ -54,4 +53,46 @@ nav a:hover{
     background-color: #878C8F;
     color: white;
     text-decoration:none;
+}
+
+section{
+    margin: 20px;
+    padding: 0 15px;
+}
+h4{
+    font-size: 22px;
+    padding:15px;
+    margin: 0;
+    line-height: 20px;
+    font-family: 微軟黑正體;
+    color:rgba(66, 65, 65, 0.863);
+    letter-spacing: 1.5px;
+    text-align: center;
+}
+
+table{
+    border: 1px solid #878C8F;
+    border-right: #878C8F;
+    border-left: #878C8F;
+    border-collapse:collapse;
+    
+}
+th,td{
+    border: 1px solid #adb5b9;
+    border-right: #878C8F;
+    border-left: #878C8F;
+    text-align: center;
+    padding: 10px;
+    width: 460px;
+    height: 70px;
+    letter-spacing: 1.5px;
+}
+td p{
+    text-align: left;
+    letter-spacing: 1.5px;
+}
+td img{
+    border-radius: 100%;
+    width: 150px;
+    height: 150px;
 }
