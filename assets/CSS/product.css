@@ -71,10 +71,9 @@ h3{
     text-decoration: none;
 }
 
-.container{
-    /*width: 85%;*/
-    display: flex;
-}
+/*.container{
+    display: flex; 
+}*/
 
 .card{
     width: 30%;
@@ -86,8 +85,7 @@ h3{
 }
 
 .card img{
-    
-    cursor:pointer;
+    cursor: pointer;
     transition:all 0.6s ease-in-out;
 }
 
