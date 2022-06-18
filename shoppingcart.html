@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>購物車</title>
     <link rel="stylesheet" href="assets/CSS/shoppingcart.css">
+    <link rel="stylesheet" href="assets/CSS/checkout.css">
     <script src="assets/JS/number.js" defer></script>
 </head>
 <body>
@@ -26,8 +27,8 @@
         <a href="shoppingcart.html">購物車</a>
         <a href="us.html">關於我們</a>
     </nav>
-    <main>
-        <form id="shoppingCar" method="post" action="#">
+    <form id="shoppingCar" method="post" action="#"></form>
+        <main>
             <section class="shopping-car">
                 <div class="s-header">
                     <hr style="border:none; border-top: 1px solid #878C8F;">
@@ -74,14 +75,135 @@
             </td>
             </tr>
         </table>
-
-
+        <article>
+            <section class="card">
+                <div class="row">
+                    <div class="s-header">
+                        <hr style="border:none; border-top: 1px solid #878C8F;">
+                        <h4>顧客資訊</h4>
+                        <hr style="border:none; border-top: 1px solid #878C8F;">
+                    </div>
+                    <div class="customer-inf">
+                        <form method="post" action="">
+                            姓名： <br/>
+                            <input class="text1" type="text" name="user_name"  placeholder="請輸入姓名" autofocus/><br/>
+                            連絡電話：<br/>
+                            <input  class="text1" type="text" name="phone_number" placeholder="請輸入電話" /><br/>
+                            電子信箱：<br/>
+                            <input class="text1" type="text" name="email" size="40" placeholder="請輸入信箱" /><br/>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </article>
+        <aside class="card">
+            <div class="s-header">
+                <div class="row">
+                <hr style="border:none; border-top: 1px solid #878C8F;">
+                <h4>送貨地址</h4>
+                <hr style="border:none; border-top: 1px solid #878C8F;">
+            </div>
+            <div>
+                <label for="deliver-address">收貨地址</label>
+                 <select id="deliver-address-1" class="deliver-form" >
+                <option>台北市</option>
+                <option>新北市</option>
+                <option>基隆市</option>
+                <option>桃園市</option>
+                <option>新竹市</option>
+                <option>新竹縣</option>
+                <option>苗栗縣</option>
+                <option>台中市</option>
+                <option>彰化縣</option>
+                <option>南投縣</option>
+                <option>雲林縣</option>
+                <option>嘉義縣</option>
+                <option>嘉義市</option>
+                <option>台南市</option>
+                <option>高雄市</option>
+                <option>屏東縣</option>
+                <option>宜蘭縣</option>
+                <option>花蓮縣</option>
+                <option>台東縣</option>
+                </select> 
+            </div>
+            <div class="customer-inf">    
+                <form method="post" action="">
+                    <input class="text1" type="text" name="address" size="60" value="" placeholder="請輸入地址" />
+                    <br/>
+                </form>
+            </div>
+        </div>
+        </aside>
+        <article>
+        <section class="card">
+            <div class="row">
+            <div class="s-header">
+                <hr style="border:none; border-top: 1px solid #878C8F;">
+                <h4>送貨及付款方式</h4>
+                <hr style="border:none; border-top: 1px solid #878C8F;">
+            </div>
+            <div class="#">
+                <label for="order-deliver">送貨地點</label>
+                <select id="order-deliver" class="deliver-form" >
+                    <option>台灣本島</option>
+                    <option>離島</option>
+                 </select>
+                 <label for="o-d-method">送貨方式</label>
+                         <select name="deliver" id="o-d-method" class="deliver-form">
+                             <option  value="11取貨付款">7-11取貨付款</option>
+                             <option  value="全家取貨付款">全家取貨付款</option>
+                             <option  value="宅配貨到付款">宅配貨到付款</option>
+                             <option  value="宅配到府">宅配到府</option>
+                         </select>
+                         <label for="order-payment">付款方式</label>
+                         <select name="pay" id="order-payment" class="deliver-form">
+                             <option value="貨到付款">貨到付款</option>
+                             <option value="信用卡付款">信用卡付款</option>
+                             <option value="ATM轉帳付款">ATM轉帳付款</option>
+                             <option value="7-11ibon付款">7-11ibon付款</option>
+                             <option value="全家FamiPort">全家FamiPort</option>
+                             <option value="LINEPAY">LINE PAY</option>
+                         </select>
+            </div>
+        </div>
+    </section>
+    </article>
+        
+        <aside class="card">
+            <div class="s-header">
+                <div class="row">
+                <hr style="border:none; border-top: 1px solid #878C8F;">
+                <h4>訂單金額確認</h4>
+                <hr style="border:none; border-top: 1px solid #878C8F;">
+            </div>
+            <div class="price">
+                <label for="price-sum" calss="num-left">件數:</label>
+                <label for="price-sum" calss="num-right">1件</label><br/>
+                <label for="price-sum" calss="price-left">合計:</label>
+                <label for="price-sum" calss="price-right">$200</label>           
+            </div>
+        </div>
+        </aside>   
+        <aside class="card">
+            <div class="s-header">
+                <div class="row">
+                <hr style="border:none; border-top: 1px solid #878C8F;">
+                <h4>訂單備註</h4>
+                <hr style="border:none; border-top: 1px solid #878C8F;">
+            </div>
+            <div class="memo">
+                    <textarea name="memo" cols="50" rows="5" wrap="hard"></textarea>       
+            </div>
+        </div>
+        </aside>   
         </section>
-        <div class="btn-checkout">
-            <a class="button" href="checkout.html">訂單結帳</a>
+       
+     </main>
+    <div class="btn-checkout">
+            <a href="order_completed.html"><input type="submit" value="訂單結帳" class="button"/></a>
         </div>
     </form>
-    </main>
 
     <footer>
         Copyrgiht @ 2022 All rights reserved
